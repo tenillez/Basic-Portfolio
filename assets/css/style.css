@@ -1,0 +1,129 @@
+* {
+    font-family:  "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color:  #999999;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+body {
+    margin: 0 0 5em;
+    background-image: url("gplaypattern_@2X.png");
+}
+
+h1, h2, h3 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+h3 {
+    color: #4aaaa5;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 2em;
+}
+
+nav {
+    width: 40%;
+    float: right;
+    padding: 1em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 12px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+
+#name{
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 1em;
+    text-align: center;
+    margin-left: 7.5em;
+    width: 20%;
+    float: left;
+}
+
+.content {
+    margin-right: -7.5em;
+    flex: 1;
+}
+
+.ContentHeader {
+	color:  #4aaaa5;
+	border-bottom: 3px solid #cccccc;
+	margin-bottom: 1em;
+    margin-top: 1em;
+    top: 0px;
+}
+
+.container {
+	width: 50%;
+	margin-left: -250px;
+	float: left;
+	margin-bottom: 10%;
+}
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px; 
+    float: left;
+    padding-left: 10px;
+}
+
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#form {
+	margin-bottom: 
+}
+.button {
+	background-color: #4aaaa5; /* aqua */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 3em;
+	color: #fff;
+    font-size: 50%;
+}
+
+.footer {
+	background-color: #666666;
+	height: 3em;
+	float: right;
+	width: 100%;
+	border-top: 6px solid #4aaaa5;
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+}
